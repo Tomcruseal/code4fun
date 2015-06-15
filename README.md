@@ -1,0 +1,2 @@
+# django_management
+homework
