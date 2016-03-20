@@ -1,0 +1,12 @@
+Y=[10.6,1.6,8.8,2.6,-10,-0.1,-9.6,8.4,-0.5,\
+   -7.6]
+X=[0,1,2,3,4,5,6,7,8,9]
+from scipy import stats
+import numpy as np
+import matplotlib as mpl
+Function1=stats.linregress(X,Y)
+slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
+def Function2(t):
+    return slope*t+intercept
+print Function1
+mpl.pyplot
